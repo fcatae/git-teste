@@ -1,4 +1,7 @@
 #%RAML 1.0
+securitySchemes:
+  SecurityScheme01:
+    type: Pass Through
 title: New API accounts
 description: blablabla
 mediaType:
@@ -6,3 +9,8 @@ mediaType:
 protocols:
   - HTTP
   - HTTPS
+/accounts:
+  get:
+    displayName: get accounts
+    securedBy: []
+securedBy: []
