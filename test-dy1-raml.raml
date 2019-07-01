@@ -12,10 +12,15 @@ types:
       strict: true
       value: |-
         {
-           id: avc
-           , firstName, lastName, address, postal, country, miles :int, creationDate :datetime, and type
+           id: avc,
+           firstName: af, 
+           lastName: aa, 
+           address: aa, postal: aa, country:a, miles :1, creationDate :datetime,  type:p
         }
-    type: object
+    properties:
+      newProperty:
+        example: Example
+        type: string
 securitySchemes:
   SecurityScheme01:
     type: Pass Through
