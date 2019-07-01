@@ -1,19 +1,10 @@
 #%RAML 1.0
-securitySchemes:
-  SecurityScheme01:
-    type: Pass Through
-title: New API accounts
-description: blablabla
-mediaType:
-  - application/json
-protocols:
-  - HTTP
-  - HTTPS
 /accounts:
   get:
     displayName: get accounts
+    description: "null"
+    body: {}
     securedBy: []
-securedBy: []
 types:
   account:
     description: example data type
@@ -21,6 +12,19 @@ types:
       strict: true
       value: |-
         {
-           id: avc, firstName, lastName, address, postal, country, miles :int, creationDate :datetime, and type
+           id: avc
+           , firstName, lastName, address, postal, country, miles :int, creationDate :datetime, and type
         }
     type: object
+securitySchemes:
+  SecurityScheme01:
+    type: Pass Through
+    describedBy: {}
+title: New API accounts
+description: blablabla
+mediaType:
+  - application/json
+protocols:
+  - HTTP
+  - HTTPS
+securedBy: []
