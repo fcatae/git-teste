@@ -1,1 +1,11 @@
-{"main":"test-dy1-raml.raml","name":"test dy1 raml","classifier":"raml","tags":[]}
+{
+  "main" : "test-dy1-raml.raml",
+  "name" : "test dy1 raml",
+  "classifier" : "raml",
+  "tags" : [ ],
+  "groupId" : "4579e372-196e-4c00-a443-6e1eaf5d2e75",
+  "assetId" : "test-dy1-raml",
+  "version" : "1.0.0",
+  "apiVersion" : "",
+  "dependencies" : [ ]
+}
