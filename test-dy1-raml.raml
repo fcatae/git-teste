@@ -1,6 +1,9 @@
 #%RAML 1.0
-title: New API accounts
-
+title: Move DY API accounts
+version: v1
+mediaType:
+  - application/json
+  
 /accounts:
   get:
     displayName: get accounts
@@ -23,8 +26,7 @@ securitySchemes:
     describedBy: {}
 
 description: blablabla
-mediaType:
-  - application/json
+
 protocols:
   - HTTP
   - HTTPS
